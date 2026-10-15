@@ -41,8 +41,8 @@ def is_night():
 while True:
     time.sleep(60)
     if is_iss_overhead() and is_night():
-            my_email = "erinhope999@gmail.com"
-            pwd = "yqhq cvsa hmoe pibs"
+            my_email = "myemail"
+            pwd = "mypassword"
             # create the object and specify the location of our email provider's SMTP server
             with SMTP("smtp.gmail.com") as connection:
                 # this line is to secure the email transportation, so it's encrypted
